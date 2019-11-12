@@ -32,10 +32,10 @@ C++ reference manual
 Python reference manual
 -----------------------
 
-.. automodule:: app4triqs 
+.. automodule:: tests_for_triqs 
    :members:
 
-.. autoclass:: app4triqs.app4triqs_module.Toto
+.. autoclass:: tests_for_triqs.tests_for_triqs_module.Toto
    :members:
 
-.. autofunction:: app4triqs.app4triqs_module.chain
+.. autofunction:: tests_for_triqs.tests_for_triqs_module.chain

@@ -1,13 +1,13 @@
 #pragma once
 #include <triqs/gfs.hpp>
 
-namespace app4triqs {
+namespace tests_for_triqs {
 
   /**
    * A very useful and important class
    *
    * @note A Useful note
-   * @include app4triqs/app4triqs.hpp
+   * @include tests_for_triqs/tests_for_triqs.hpp
    */
   class toto {
 
@@ -74,4 +74,4 @@ namespace app4triqs {
    */
   int chain(int i, int j);
 
-} // namespace app4triqs
+} // namespace tests_for_triqs

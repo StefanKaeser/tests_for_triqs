@@ -1,10 +1,10 @@
-configure_file(app4triqs-config.cmake.in app4triqs-config.cmake @ONLY)
-configure_file(app4triqs-config-version.cmake.in app4triqs-config-version.cmake @ONLY)
+configure_file(tests_for_triqs-config.cmake.in tests_for_triqs-config.cmake @ONLY)
+configure_file(tests_for_triqs-config-version.cmake.in tests_for_triqs-config-version.cmake @ONLY)
 install(
   FILES
-    ${CMAKE_CURRENT_BINARY_DIR}/app4triqs-config.cmake
-    ${CMAKE_CURRENT_BINARY_DIR}/app4triqs-config-version.cmake
-  DESTINATION lib/cmake/app4triqs
+    ${CMAKE_CURRENT_BINARY_DIR}/tests_for_triqs-config.cmake
+    ${CMAKE_CURRENT_BINARY_DIR}/tests_for_triqs-config-version.cmake
+  DESTINATION lib/cmake/tests_for_triqs
 )
 
-install(EXPORT app4triqs-targets NAMESPACE app4triqs:: DESTINATION lib/cmake/app4triqs)
+install(EXPORT tests_for_triqs-targets NAMESPACE tests_for_triqs:: DESTINATION lib/cmake/tests_for_triqs)

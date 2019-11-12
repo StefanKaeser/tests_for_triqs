@@ -2,7 +2,7 @@
 
 import unittest
 
-from app4triqs import Toto, chain
+from tests_for_triqs import Toto, chain
 from pytriqs.archive import *
 from pytriqs.utility import mpi
 
